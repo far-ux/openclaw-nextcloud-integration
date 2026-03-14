@@ -1,0 +1,29 @@
+{
+  "name": "openclaw-nextcloud-integration",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for Nextcloud integration (files, notes, tasks, calendar, contacts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/usage-examples.js",
+    "start": "node scripts/nextcloud.js"
+  },
+  "keywords": ["openclaw", "nextcloud", "cloud", "storage", "caldav", "carddav"],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "fast-xml-parser": "^5.3.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/far-ux/openclaw-nextcloud-integration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/far-ux/openclaw-nextcloud-integration/issues"
+  },
+  "homepage": "https://github.com/far-ux/openclaw-nextcloud-integration#readme"
+}
